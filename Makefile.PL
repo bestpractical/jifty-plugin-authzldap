@@ -1,17 +1,10 @@
-use inc::Module::Install;
+use inc::Module::Install 0.46;
+name('Jifty-Plugin-AuthzLDAP');
+version_from('lib/Jifty/Plugin/AuthzLDAP.pm');
 
-name           'Jifty-Plugin-AuthzLDAP';
-all_from       'lib/Jifty/Plugin/AuthzLDAP.pm';
+requires('Jifty');
 
-version_from('../../lib/Jifty.pm');
+auto_install();
+tests(qw( t/*/t/*.t ));
 
-build_requires 'Test::More';
-requires('Net::LDAP');
-requires('Cache::MemoryCache');
-
-install_share;
-
-tests('t/*.t');
-auto_install;
 WriteAll;
-
