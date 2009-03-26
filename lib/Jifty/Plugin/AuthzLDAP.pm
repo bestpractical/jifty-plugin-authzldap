@@ -61,7 +61,7 @@ L<Net::LDAP>
 package Jifty::Plugin::AuthzLDAP;
 use base qw/Jifty::Plugin/;
 
-our $VERSION = '0.02';
+our $VERSION = '0.9';
 
 use Net::LDAP;
 use Cache::MemoryCache;
