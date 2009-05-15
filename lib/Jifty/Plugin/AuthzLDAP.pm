@@ -203,7 +203,7 @@ Yves Agostini, <yvesago@cpan.org>
 
 =head1 LICENSE
 
-Copyright 2007-2008 Yves Agostini. All Rights Reserved.
+Copyright 2007-2009 Yves Agostini. All Rights Reserved.
 
 This program is free software and may be modified and distributed under the same terms as Perl itself.
 
